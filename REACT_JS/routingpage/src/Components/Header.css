@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    margin: 0px;
+    padding: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 201, 77);
+}
+.header2{
+    display: flex;
+    margin: 0px;
+    padding: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(225, 94, 219);
+}
+
+.header3{
+    display: flex;
+    margin: 0px;
+    padding: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(94, 173, 225);
+}

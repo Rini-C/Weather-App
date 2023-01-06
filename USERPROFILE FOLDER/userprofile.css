@@ -1,0 +1,52 @@
+.profiles {
+    border: 2px solid black;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    background-color: aquamarine;
+    margin-top:-3px;
+}
+
+.header {
+    padding: 30px;
+    background-color: black;
+    color: azure;
+    width: 1300px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profilebox {
+    margin: 10px;
+    /* padding: 30px; */
+    background: rgb(206, 150, 187);
+    color: rgb(63, 57, 103);
+    width: 200px;
+    height: 200px;
+    border: 1px solid, black;
+    /* display: inline-grid; */
+    text-align: center;
+    /* text-align: center; */
+    border-radius: 60px;
+    background-color: rgb(109, 184, 161);
+    box-shadow: 60px;
+    box-sizing: 600vw;
+}
+    
+img {
+    height:70px;
+    width:70px;
+    margin-top:20px;
+}
+
+
+
+
+
+
+    

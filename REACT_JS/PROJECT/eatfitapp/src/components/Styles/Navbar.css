@@ -1,0 +1,26 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.2%;
+  box-shadow: 0px 7px 14px -1px rgba(0, 0, 0, 0.33);
+  overflow-x: visible;
+}
+.Navbar__img {
+  margin: 0;
+  padding: 0;
+}
+.Navbar__middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+  margin: 2% 0 0 0;
+}
+.Navbar__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 15%;
+  margin: 2% 0 0 0;
+}/*# sourceMappingURL=Navbar.css.map */

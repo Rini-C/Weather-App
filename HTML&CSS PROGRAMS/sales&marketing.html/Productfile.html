@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+     body {
+      text-align: center;
+      background-color: rgba(20, 146, 230, 0.678);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+     input[type=text], select {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+     /* box-sizing: border-box; */
+    }
+</style>
+</head>
+<body>
+
+<h1>Product Information</h1><br>
+
+<form action="/Product_Page.php">
+  <label style="font-size:20px;">Product Id:</label>
+  <input type="text" id="Product Id" name="Product Id"placeholder="Enter The Product Id"><br>
+  <label style="font-size:20px;">Product Title:</label>
+  <input type="text" id="Product Title" name="Product type"placeholder="Enter The Product Title"><br>
+  <label style="font-size:20px;">Product Type:</label>
+  <select>
+    <option>Cluster Id</option>
+    <option>Nodeport</option>
+    <option>load Balancer</option>
+    <option>External Name</option>
+    <option>Headless</option>
+   </select><br>   
+  <!-- <input type="text" id="Product Type"name="Product Type"placeholder="Enter The Product Type"><br> -->
+  <label style="font-size:20px;">Product Pricing:</label>
+  <input type="text" id="Product Pricing" name="Product Pricing"placeholder="Enter The Product Pricing"><br><br><br>
+  <input type="submit" value="Submit">
+
+</form> 
+
+</body>
+</html>
+
+    

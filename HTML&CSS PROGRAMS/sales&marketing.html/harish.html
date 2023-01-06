@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For 27 table </h2>
+
+<p id="output"></p>
+
+     <script>
+            
+
+
+  var a = [12,66,20,43,36,7,14];
+  var n = a.length;
+  var l=0;
+  var r=n-1;
+    
+
+while(l<=r)  {
+  if(l==r)
+    {document.getElementById("output").innerHTML = a[l];
+  break;}
+    else if(a[l]>=a[r])
+    {r=r-1;}
+    else
+    {l=l+1;}
+   }
+ 
+
+    </script>
+
+</body>
+</html>
